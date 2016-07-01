@@ -4,5 +4,5 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This website was put together because I love my job and I think everyone else should get jobs like mine 😊. It was built with <a href="https://jekyllrb.com/">Jekyll</a> on <a href="https://pages.github.com/">Github pages</a>.
 
