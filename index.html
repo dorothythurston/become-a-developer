@@ -3,31 +3,43 @@ layout: default
 ---
 
 <div class="home">
+  <h1 class="welcome">Welcome</h1>
+    <div class="row row-centered">
+      <div class="col-xs-12 col-centered">
+        <p>Anyone can learn to code, but figuring out how to learn to code, or what to learn, is not immediately obvious. Fortunately, many awesome people have put together free resources to teach these skills. This website is a curation of the best resources for learning introductory skills for web development. These skills are used for many tech jobs including positions as front-end developers, back-end developers, software engineers etc. Upon completing this curriculum you will be able to write code, design a website, set up a database, and create your own web application. With this knowledge, and a little practice, you could qualify for an entry level developer job. You can do it!
+        </p>
+      </div>
+    <div class="row">
+    <div class="col-md-2 col-md-offset-5"></div>
+    </div>
+    <div class="col-md-12 center-block">
+      <a href="{{ site.posts.first.url }}" class="btn btn-primary">Lets Get Started!</a>
+    </div>
+  </div> 
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Topics</h1>
 
   <div class="row pack">
-
-        {% for post in site.posts %} 
-            <div class="col-md-4 card">
-                 
-                <div class="panel panel-default">
-                  <div class="panel-body">
-                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
-                  </div>
-                  {% if post.img %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
-                  {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/default.png" alt="{{site.title}}">
-                  {% endif %}
-                  <div class="panel-body"><small>
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Read</a>
-                  </div>
-                </div>
-            </div>
-        
-          {% endfor %}
-
-    </div> 
+    {% for post in site.posts %} 
+      <div class="col-md-4 card">  
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
+            <span class="post-meta pull-right"><small>{{ post.order }}</small></span>
+          </div>
+          {% if post.img %}
+            <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+          {% else %}
+            <img width="100%" src="{{site.baseurl}}/images/default.png" alt="{{site.title}}">
+          {% endif %}
+          <div class="panel-body">
+            <small>
+              {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+            </small>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm pull-right mt10">Read</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div> 
 </div>
