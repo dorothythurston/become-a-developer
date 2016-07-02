@@ -16,7 +16,7 @@ Git is a popular version control system. It can be very confusing to use the fir
 	<li><a href="http://gitimmersion.com/index.html">http://gitimmersion.com/index.html</a></li>
 </ul>
 
-http://gitimmersion.com/index.html
+
 Another more simple overview:
 <ul>
 	<li><a href="http://rogerdudler.github.io/git-guide/">http://rogerdudler.github.io/git-guide/</a></li>
