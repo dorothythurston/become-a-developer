@@ -47,7 +47,10 @@ Very cool! Ready to dive in? Here are the resources to learn!
 	<li><a href="https://dash.generalassemb.ly/">https://dash.generalassemb.ly/</a></li>
 	<li><a href="https://www.khanacademy.org/computing/computer-programming/html-css">https://www.khanacademy.org/computing/computer-programming/html-css</a></li>
 	<li><a href="https://www.udacity.com/course/intro-to-html-and-css--ud304">https://www.udacity.com/course/intro-to-html-and-css--ud304</a></li>
+	<li><a href="https://www.marcaria.com/ws/en/articles/learn-about-domains-and-html">https://www.marcaria.com/ws/en/articles/learn-about-domains-and-html</a></li>
 </ul>
+
+
 
 
 
