@@ -12,3 +12,20 @@ Many developers complain about JavaScript. Like Ruby, it is an an object-oriente
 	<li><a href="https://www.khanacademy.org/computing/computer-programming/html-js-jquery">https://www.khanacademy.org/computing/computer-programming/html-js-jquery</a></li>
 	<li><a href="https://www.codeschool.com/courses/try-jquery">https://www.codeschool.com/courses/try-jquery</a></li>
 </ul>
+
+If you find you like JavaScript you can learn more intro level language skills here:
+<ul>
+	<li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript">https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript</a></li>
+	<li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6">https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6</a></li>
+	<li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures">https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures</a></li>
+	<li><a href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging">https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/debugging</a></li>
+</ul>
+
+Once you have mastered basic front end skills and JavaScript skills you might want to try your hand at more in depth front end frameworks such as <a href="https://facebook.github.io/react/">React.js</a>:
+<ul>
+	<li><a href="https://learn.freecodecamp.org/front-end-libraries/react">https://learn.freecodecamp.org/front-end-libraries/react</a></li>
+	<li><a href="https://learn.freecodecamp.org/front-end-libraries/redux/">https://learn.freecodecamp.org/front-end-libraries/redux/</a></li>
+	<li><a href="https://learn.freecodecamp.org/front-end-libraries/react-and-redux/">https://learn.freecodecamp.org/front-end-libraries/react-and-redux/</a></li>
+</ul>
+
+<a href="https://learn.freecodecamp.org/">freeCodeCamp</a> has awesome resources and a full curriculum for the whole JavaScript echo system and I highly reccomend it!
