@@ -24,7 +24,6 @@ Looking for a deeper learning or more guided learning option? Consider taking on
 In person bootcamps:
 <ul>
 <li><a href="https://www.launchacademy.com/">https://www.launchacademy.com/</a></li>
-<li><a href="http://devbootcamp.com/">http://devbootcamp.com/</a></li>
 <li><a href="https://generalassemb.ly/education?format=immersives">https://generalassemb.ly/</a></li>
 </ul>
 
